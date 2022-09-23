@@ -1,0 +1,26 @@
+/*tratando a responsividade para desktop*/
+
+
+
+@media(min-width:710px){
+    
+    main{
+        grid-template-areas: "A B B"
+        "C C  D";
+    }
+    main div:nth-child(1) {
+        grid-area: A;
+    }
+
+    main div:nth-child(2) {
+        grid-area: B;
+    }
+
+    main div:nth-child(3) {
+        grid-area: C;
+    }
+
+    main div:nth-child(4) {
+        grid-area: D;  
+    }
+}
